@@ -5,6 +5,7 @@ package CarWash;
  */
 public class Car implements Washable {
     String name;
+    Person owner;
 
     public Car() {
     }
@@ -17,8 +18,20 @@ public class Car implements Washable {
         this.name = name;
     }
 
+    public void setOwner(Person owner) {
+        this.owner = owner;
+    }
+
     @Override
     public void wash() {
         System.out.println(name+" washed.");
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name='" + name + '\'' +
+                ", owner=" + owner +
+                '}';
     }
 }

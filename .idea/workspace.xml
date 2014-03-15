@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be371381-f53f-4f03-bc56-da5fbe455e32" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CarWash/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CarWash/App.java" afterPath="$PROJECT_DIR$/src/main/java/CarWash/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CarWash/Car.java" afterPath="$PROJECT_DIR$/src/main/java/CarWash/Car.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/java/spring-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -88,10 +91,12 @@
       <file leaf-file-name="Car.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="30" column="18" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="343" max-vertical-offset="731">
               <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,7 +105,7 @@
       <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="17" column="31" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +125,7 @@
       <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="40" selection-start="864" selection-end="864" vertical-scroll-proportion="0.33240223" vertical-offset="51" max-vertical-offset="510">
+            <state line="37" column="45" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.38268158" vertical-offset="492" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -154,9 +159,27 @@
       <file leaf-file-name="CarWash.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/CarWash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state line="30" column="9" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
               <folding>
-                <element signature="e#216#217#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="18" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="612">
+              <folding>
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,12 +200,13 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/CarWash/Washable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CarWash/CarWash.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CarWash/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CarWash/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/constuctorbased-spring-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/CarWash/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CarWash/CarWash.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CarWash/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CarWash/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/CarWash/Person.java" />
       </list>
     </option>
   </component>
@@ -623,17 +647,25 @@
       <changelist id="be371381-f53f-4f03-bc56-da5fbe455e32" name="Default" comment="" />
       <created>1394880789639</created>
       <updated>1394880789639</updated>
-      <workItem from="1394880794387" duration="8361000" />
+      <workItem from="1394880794387" duration="10634000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1394886591818</created>
       <updated>1394886591818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1394891973216</created>
+      <updated>1394891973216</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit&#10;">
+      <created>1394893559178</created>
+      <updated>1394893559178</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8361000" />
+    <option name="totallyTimeSpent" value="10634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -660,7 +692,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1570997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -715,25 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/CarWash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="31" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="782">
@@ -745,6 +758,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/CarWash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="18" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="343" max-vertical-offset="731">
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/Washable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="23" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -752,18 +799,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CarWash/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="24" column="18" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="612">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="864" selection-end="864" vertical-scroll-proportion="0.33240223" vertical-offset="51" max-vertical-offset="510">
+        <state line="37" column="45" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.38268158" vertical-offset="492" max-vertical-offset="850">
           <folding />
         </state>
       </provider>

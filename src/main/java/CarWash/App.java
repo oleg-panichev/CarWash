@@ -16,5 +16,6 @@ public class App
         carWash.washAll();
         System.out.println("Wash in map:");
         carWash.washAllInMap();
+        System.out.println(context.getBean("newCar"));
     }
 }

@@ -34,5 +34,12 @@
         </property>
     </bean>
 
+    <bean name="newCar" class="CarWash.Car" autowire="byName">
+        <property name="name" value="Volga"/>
+    </bean>
+    <bean name="owner" class="CarWash.Person">
+        <property name="name" value="Alena"/>
+    </bean>
+
 
 </beans>
