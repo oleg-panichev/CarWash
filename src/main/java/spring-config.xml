@@ -13,11 +13,24 @@
                 <!--<ref bean="carZhiguli"/>-->
             <!--</list>-->
 
-            <util:list id="carList" value-type="CarWash.Washable">
+            <!--<util:list id="carList" value-type="CarWash.Washable">-->
+                <!--<ref bean="carSubaru"/>-->
+                <!--<ref bean="carZhiguli"/>-->
+                <!--<ref bean="carMoskvich"/>-->
+            <!--</util:list>-->
+
+            <set>
                 <ref bean="carSubaru"/>
                 <ref bean="carZhiguli"/>
                 <ref bean="carMoskvich"/>
-            </util:list>
+                <ref bean="carSubaru"/>
+            </set>
+        </property>
+        <property name="carsMap">
+            <map>
+                <entry key="1" value-ref="carSubaru"/>
+                <entry key="2" value-ref="carMoskvich"/>
+            </map>
         </property>
     </bean>
 

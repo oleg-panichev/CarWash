@@ -14,5 +14,7 @@ public class App
         ApplicationContext context=new FileSystemXmlApplicationContext("src\\main\\java\\spring-config.xml");
         CarWash carWash=context.getBean(CarWash.class);
         carWash.washAll();
+        System.out.println("Wash in map:");
+        carWash.washAllInMap();
     }
 }
